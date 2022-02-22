@@ -127,3 +127,28 @@ a:hover{
     color:red;
     transition:0.3s ease-out;
 }
+
+@media (max-width:629px) {
+  .img {
+    display: none;
+  }
+  
+  .text{
+      font-size:0.8em;
+      width:90%;
+  }
+  
+ section{
+     padding:30px;
+      height:200%;
+      width:100%;
+  }
+  .logo{
+      padding:0px;
+      margin:0px;
+    
+  }
+  
+  .footer{
+      width:130%;
+  }
