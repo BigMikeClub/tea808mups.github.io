@@ -140,7 +140,8 @@ a:hover{
   
   .text{
       font-size:0.8em;
-      width: calc(85% - 350px - 10px);
+  
+      height:20%;
   }
   
   .nav{
