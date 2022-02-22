@@ -95,7 +95,7 @@ a:hover{
 
 .text{
     float:right;
-     width: calc(95% - 350px - 10px);
+     width: auto;
      padding:30px;
      font-size:18px;
      font-family: Arial, Helvetica, sans-serif;
