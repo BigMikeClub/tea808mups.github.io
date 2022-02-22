@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  background-color: black;
+  color:white;
+}
+
+h2{
+    color:purple;
+}
+
+.navbar {
+  height: 50px;
+  background-color: black;
+  top: 0;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+a:hover{
+    color:red;
+    opacity:0.8;
+}
+
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  height: 100%;
+  color: white;
+  font-family: "Sen", sans-serif;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  font-size: 50px;
+  color: skyblue;
+}
+
+.menu-container {
+  flex: 4;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+
+}
+
+.menu-list-item {
+  margin-right: 30px;
+}
+
+.menu-list-item.active {
+  font-weight: bold;
+}
+
+.left-menu-icon {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.img{
+    width:20%;
+    height:200px;
+    padding:30px;
+    transition: all 1s ease-in-out;
+    border-radius: 60px;
+}
+
+.divs:hover{
+    border-radius: 80px;
+    transform: scale(1.15);
+    margin:30px;
+    transition: all 1s ease-in-out;
+}
+.info{
+    margin:30px;
+    
+}
+
+.text{
+    float:right;
+     width: calc(95% - 350px - 10px);
+     padding:30px;
+     font-size:18px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    color:purple;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    height:70px;
+    background:purple;
+    text-align:center;
+    color:black;
+    padding-top:60px;
+}
+.copyr{
+    padding-top:30px;
+}
+
+.mf{
+    padding:40px;
+    color:black;
+    text-decoration:none;
+}
+
+.mf:hover{
+    color:red;
+    transition:0.3s ease-out;
+}
