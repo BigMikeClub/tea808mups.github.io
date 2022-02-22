@@ -133,7 +133,7 @@ a:hover{
   
   .text{
       font-size:0.8em;
-      width:100%;
+      width: calc(95% - 350px - 10px);
       height:auto;
     justify-content:stretch;
   }
