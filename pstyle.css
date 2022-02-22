@@ -139,7 +139,7 @@ a:hover{
   
   .text{
       font-size:0.8em;
-      width:90%;
+      width: calc(85% - 350px - 10px);
   }
   
   .nav{
