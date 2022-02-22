@@ -133,6 +133,10 @@ a:hover{
     display: none;
   }
   
+  .footer{
+    display:none;
+  }
+  
   .text{
       font-size:0.8em;
       width:90%;
