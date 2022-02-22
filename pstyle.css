@@ -75,12 +75,6 @@ a:hover{
     border-radius: 60px;
 }
 
-.divs:hover{
-    border-radius: 80px;
-    transform: scale(1.15);
-    margin:30px;
-    transition: all 1s ease-in-out;
-}
 .info{
     margin:30px;
     
@@ -161,8 +155,4 @@ a:hover{
     margin:10px;
   }
   
-  .divs:hover{
-    border-radius: 80px;
-    margin:10px;
-}
 }
