@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -35,7 +34,7 @@ a:hover{
 .navbar-container {
   display: flex;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 30px;
   height: 100%;
   color: white;
   font-family: "Sen", sans-serif;
@@ -46,7 +45,7 @@ a:hover{
 }
 
 .logo {
-  font-size: 50px;
+  font-size: 40px;
   color: skyblue;
 }
 
@@ -61,17 +60,11 @@ a:hover{
 }
 
 .menu-list-item {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .menu-list-item.active {
   font-weight: bold;
-}
-
-.left-menu-icon {
-  color: white;
-  font-size: 20px;
-  margin-bottom: 40px;
 }
 
 .img{
@@ -142,6 +135,7 @@ a:hover{
       font-size:0.8em;
       width:auto;
       height:auto;
+    justify-content:stretch;
   }
   
   .nav{
@@ -155,7 +149,12 @@ a:hover{
   .logo{
       padding:0px;
       margin:0px;
+      font-size:20px;
     
+  }
+  
+  .info{
+    margin:10px;
   }
   
 }
